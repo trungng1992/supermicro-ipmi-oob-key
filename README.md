@@ -2,6 +2,8 @@
 
 ## Usage:
 
+Get file exec in bin direct based on your computer.
+
 ``` shell
 # Linux
 supermicro-ipmi-oob-key-linux -m "aa:bb:cc:dd:ee:ff"
