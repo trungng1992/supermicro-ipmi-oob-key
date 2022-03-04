@@ -43,7 +43,7 @@ func main() {
 	h := hmac.New(sha1.New, []byte(hex2bin(key)))
 	h.Write([]byte(hex2bin(editedMac)))
 
-	licenseKey := hex.EncodeToString(h.Sum(nil))
+	licenseKey := hex.EncodeToString(h.Sum(nil))[0:24]
 
 	result := ""
 	s := 0
