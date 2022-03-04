@@ -16,4 +16,4 @@ default: build
 build:
 	$(GO_LINUX) build -o bin/$(BINARY_NAME)-linux
 	$(GO_DARWIN) build -o bin/$(BINARY_NAME)-darwin
-	$(GO_WINDOWS) build -o bin/$(BINARY_NAME)-windows
+	$(GO_WINDOWS) build -o bin/$(BINARY_NAME)-windows.exe
